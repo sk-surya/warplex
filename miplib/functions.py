@@ -11,7 +11,7 @@ def setup():
 
 def main():
     setup()
-    solve_gurobi(instance_name="dano3_5", time_limit=10)
+    # solve_gurobi(instance_name="dano3_5", time_limit=10)
     solve(instance_name="dano3_5", time_limit=10)
 
 
