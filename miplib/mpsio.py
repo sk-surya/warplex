@@ -122,7 +122,7 @@ def get_cols(mps_dict):
     for col in mps_dict["COLUMNS"]:
         col_data = get_column_fields(col)
         col_name = col_data["col_name"]
-        if col_name == "INT1END":
+        if col_name == "INT1END":           # TODO -  handle INTEGER VARIABLE 'MARKER'
             continue
         append_to_dict(col_dict, col_name, col_data)
 
